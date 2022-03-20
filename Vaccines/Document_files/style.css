@@ -1,0 +1,329 @@
+:root{
+    --white: rgba(255, 255, 255, 0.904);
+    --blue: #3757d5;
+    --grey: rgb(112, 112, 112);
+    --orange: #f37722;
+    --navy-blue: #1f3e72;
+    --gold: #ffd012;
+    --gold-soft: #fffbed;
+    --cool-blue: #3454d2;
+    --cool-blue-soft: #c1d3fa;
+    --grad-right: #3661da;
+    --grad-left: #0998e6;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--white);
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    position: fixed;
+}
+.navbar-menu ul{
+    display: flex;
+    padding-right: 70px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.menu-item{
+    margin: 20px;
+}
+.menu-item a{
+    color: var(--grey);
+}
+.menu-btn{
+    margin:10px;
+}
+.btn-navbar{
+    padding: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+    color: var(--white);
+    background-color: var(--blue);
+    border-radius: 3px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.VaccineLogo{
+    width: 6rem;
+    padding: 20px;
+}
+
+.land-msg{
+    font-weight: bold;
+    font-size: 5.5rem;
+    color: var(--navy-blue);
+}
+.land-pgph{
+    text-align: left;
+    color: var(--grey);
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1rem;
+    line-height: 48px;
+}
+.land-pgph::after{
+    content: "\a";
+    white-space: pre;
+}
+.landing-page{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    right: 0;
+    left: 0;
+    top: 0;
+    position: relative;
+    height: 100%;
+}
+.Doctor{
+    bottom: 0;
+    padding-top: 5rem;
+    height: 791px;
+    position: absolute;
+    width: 95%;
+}
+.landing-left{
+    width: 50%;
+    padding-top: 8rem;
+    padding-left: 8rem;
+    align-items: center;
+    justify-content: center;
+    margin-right: 13rem;
+    
+} 
+.lf-second::before{
+    content: "\a";
+    white-space: pre;
+}
+.landing-right{
+    width: 50%;
+    background-color: var(--cool-blue);
+    justify-content: center;
+    position: relative;
+    
+}
+.lp-left-msg{
+    display: flex;
+    padding-top: 1rem;
+}
+.lp-left-msg div{
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+}
+.lp-left-msg div i{
+    padding: 0.5rem;
+    color: var(--gold);
+    background-color: var(--gold-soft);
+    border-radius: 3px;
+    
+}
+.lp-left-msg div p{
+    padding: left 0.2rem;
+    font-weight: bold;
+}
+.lp-left-msg-u{
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+
+}
+.lp-left-msg-u i{
+    padding: 0.5rem;
+    color: var(--blue);
+    background-color: var(--cool-blue-soft);
+    border-radius: 3px;
+}
+.lp-left-msg-u p{
+    padding-left: 0.5rem;
+    color: #1f3e72;
+    font-size: 18px;
+    font-weight: bold;
+}
+.lp-schedule-box{
+    display: flex;
+    width: 75%;   
+    align-items: center;
+    left: 5%;
+    position: absolute;
+    justify-content: space-around; 
+    box-shadow: 1px 1px 5px var(--cool-blue); 
+    border-radius: 4px;
+    z-index: 1;
+    top: 52rem;
+    background-color: var(--white);
+    font-size: 1.5rem;
+
+}
+.city{
+    font-weight: bold;
+    color: var(--navy-blue);
+}
+.schedule div{
+    display: flex;
+    align-items: center;
+}
+.schedule div i{
+    padding: 0.5rem;
+    color: var(--blue);
+    background-color: var(--cool-blue-soft);
+    border-radius: 3px;
+}
+.schedule div p{
+    padding-left: 0.5rem;
+    color: var(--grey);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.landing-page-good{
+    flex-direction: column;
+    height: 100vh;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 10rem;
+}
+.logos img{
+    width: 15rem;
+    filter: grayscale(100%);
+    opacity: 40%;
+    padding-left: 5rem;
+    margin: 1.5rem;
+}
+.why-should{
+    width: 50%;
+    padding-top: 6rem;
+    padding-right: 4rem;
+    padding-left: 8rem;
+    align-items: center;
+    justify-content: center;
+    margin-right: 13rem;
+}
+.why-should span::after{
+    content: "\a";
+    white-space: pre;
+}
+.why-should-title{
+    font-size: 4rem;
+    color: var(--navy-blue);
+}
+.why-should p{
+    text-align: left;
+    color: var(--grey);
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: 1rem;
+    line-height: 48px;
+}
+.four-groups{
+padding-top: 1rem;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+
+}
+.lil-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 3px;
+    margin: 5rem;
+    width: 15rem;
+    height: 20rem;
+    box-shadow: 1px 13px 36px -7px var(--navy-blue); 
+    border-radius: 1rem;
+}
+
+.lil-group h3{
+    color: #1f3e72;
+    font-size: 1.5rem;
+}
+.lil-group i{
+    padding: 0.5rem;
+    color: var(--blue);
+    background-color: var(--cool-blue-soft);
+    border-radius: 3px;
+}
+.lil-group p {
+    padding-bottom: 5rem;
+    color: var(--grey);
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.preparations1{
+    display: flex;
+    flex-direction: row;
+    outline: solid black;
+    z-index: 0;
+}
+.preparations2{
+    width: 50%;
+    padding-top: 6rem;
+    padding-right: 1rem;
+    padding-left: 4rem;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+
+}
+.blank{
+    width: 50%;
+    height: 570.4px;
+    background-color: white;
+}
+.landing-page2{
+    padding-top: 25rem;
+    display: flex;
+    flex-direction: row;
+    outline: solid black;
+}
+
+.Doctor2{
+    height: 100%;
+    position: absolute;
+    width: 50%;
+    z-index: 1;
+    top: 165rem;
+}
+.landing-left2{
+
+}
+.landing-right2{
+    width: 50%;
+    height: 700px;
+    background-color: var(--blue);
+    justify-content: center;
+    position: absolute;
+    outline: solid black;
+}
+.land-msg2{
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: var(--navy-blue);
+}
+.land-pgph2{
+    text-align: left;
+    color: var(--grey);
+    font-weight: bold;
+    font-size: 1.9rem;
+    line-height: 48px;
+}
